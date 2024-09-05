@@ -1,4 +1,4 @@
-# My Python Refresher Module
+<!-- # My Python Refresher Module
 
 This is my personal Python refresher module, where I track my progress and goals. The focus is on revisiting core concepts and improving my overall fluency in Python.
 
@@ -61,4 +61,4 @@ Tomorrow, I plan to dive deeper into Python and explore more advanced topics:
 
 ---
 
-I’ll continue refining my skills every day. Tomorrow’s challenge is an exciting opportunity to grow. Let's go! 🚀
+I’ll continue refining my skills every day. Tomorrow’s challenge is an exciting opportunity to grow. Let's go! 🚀 -->
