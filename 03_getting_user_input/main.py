@@ -1,4 +1,12 @@
+# Single input 
 size_input = input("How big is your house(in square feet): ")
+# multiple inputs 
+a, b, c = input().split()
+print(a,b,c) 
+
+# filter inputs type 
+a, b, c = map(int, input().split())
+print(type(a))
 square_feet = int(size_input)
 square_meter = square_feet / 10.8 
 
