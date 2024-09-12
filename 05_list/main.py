@@ -45,3 +45,17 @@ print(users)
 # clear the list
 users.clear()
 print(users)
+
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newlist = []
+
+# for fruit in fruits:
+#     if 'a' in fruit:
+#         newlist.append(fruit)
+        
+# print(newlist)
+# with list comprehension 
+
+newlist = [x if 'a' in x else 'hello' for x in fruits]
+print(newlist)
