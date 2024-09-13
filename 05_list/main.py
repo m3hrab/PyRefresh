@@ -59,3 +59,24 @@ fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
 newlist = [x if 'a' in x else 'hello' for x in fruits]
 print(newlist)
+
+# Sorting 
+numbers = [x for x in range(10, 0, -1) if x%2==0]
+numbers.sort(reverse=True)
+print(numbers )
+
+
+# customize the sort function
+def func(n):
+    return abs(n - 50)
+
+import random
+numbers = [3,2, 5,1,10]
+numbers.sort(key=func) # sort the number based on the distance between the number to 50
+print(numbers)
+
+
+# Case insensitive sort
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key=str.lower)
+print(thislist)
