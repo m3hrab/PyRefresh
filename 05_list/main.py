@@ -80,3 +80,11 @@ print(numbers)
 thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.sort(key=str.lower)
 print(thislist)
+
+# copy list
+# using copy method
+numbers2 = numbers.copy()
+# using list method
+number3 = list(numbers2)
+# using slice operator
+number4 = number3[:]
