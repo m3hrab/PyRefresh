@@ -6,7 +6,9 @@ print(f'Unique Visitor: {len(visitors)}')
 
 
 # Task 2
-"""Two users of a social media app have the following interests. Find the common interests between them.
+"""
+Two users of a social media app have the following interests. 
+Find the common interests between them.
 """
 user1_interests = {"python", "data science", "ai", "football", "gaming"}
 user2_interests = {"machine learning", "gaming", "python", "music", "ai"}
